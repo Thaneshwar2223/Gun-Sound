@@ -3,8 +3,8 @@ import librosa
 import soundfile as sf
 
 # Define the directories
-input_directory = "D:/gun_sound/Zastava M92"  # Replace with your dataset path
-output_directory = "D:/gun_sound/Zastava M92_3KHZ"  # Replace with the output directory path
+input_directory = "path to your data set"  # Replace with your dataset path
+output_directory = "path to where it is stored"  # Replace with the output directory path
 
 # Create the output directory if it doesn't exist
 if not os.path.exists(output_directory):
