@@ -10,7 +10,7 @@ from tensorflow.keras.optimizers import Adam
 import pickle
 
 # Set paths and parameters
-dataset_path = "D:/gun_sound/dataset"   # Replace with the path to your dataset
+dataset_path = "path to ur dataset"   # Replace with the path to your dataset
 sample_rate = 3000
 n_mfcc = 13  # Number of MFCCs to extract
 test_size = 0.2  # 20% data for testing
