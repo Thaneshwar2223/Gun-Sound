@@ -23,8 +23,10 @@ Tkinter (for the UI)
 **HOW IT WORKS**
 First we have a dataset of gun sounds of serval guns in dataset.tar
 Then it is trained using train1.py
+labeler.pkl is used to store the labels
 The trained model is saved as  "gun_sound_classification_model.h5" 
 The trained model is used to predict the gun the sound using val.py
-
+labeler is used to store the labels
 As of now it can detect gun names based on the dataset
+
 Further updation under process
