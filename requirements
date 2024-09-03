@@ -1,0 +1,12 @@
+The language used is 
+
+python 3.12.x
+
+The requitred library are
+
+tensorflow
+os
+numpy
+librosa   #to process audio
+sklearn
+pickle
