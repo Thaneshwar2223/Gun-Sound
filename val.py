@@ -41,6 +41,6 @@ def classify_sound(file_path):
 
 
 # Example usage
-new_sound_path = "D:/gun_sound/dataset/Zastava M92/9 (4).wav"
+new_sound_path = "path to ur audio file" #testing data
 predicted_gun = classify_sound(new_sound_path)
 print(f"Predicted Gun: {predicted_gun[0]}")
